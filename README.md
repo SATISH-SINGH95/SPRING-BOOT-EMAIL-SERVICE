@@ -18,7 +18,7 @@ This project demonstrates how to send emails using Spring Boot. It covers sendin
 
 - **Clone the Repository**
 ```bash
-git clone https://github.com/SATISH-SINGH95/Send-Email-With-Spring-Boot cd spring-booot-email-service
+git clone https://github.com/SATISH-SINGH95/SPRING-BOOT-EMAIL-SERVICE cd SPRING-BOOT-EMAIL-SERVICE
 ```
 
 - **Configure Email settings**
