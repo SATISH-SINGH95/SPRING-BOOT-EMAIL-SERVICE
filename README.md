@@ -2,7 +2,7 @@
 # Spring Boot Email Service
 
 ## Overview
-This project demonstrates how to send emails using Spring Boot. It covers sending plain text emails, emails with HTML content, and emails with attachments. The application leverages Spring Boot's email integration features to simplify the process of sending various types of emails.
+This project demonstrates how to send emails using Spring Boot. It covers sending email with/without attachment, with/without html content.
 
 ## Features
 
