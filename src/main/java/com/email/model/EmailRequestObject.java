@@ -30,6 +30,4 @@ public class EmailRequestObject{
     @NotBlank(message = "message should not be blank")
     private String message;
 
-
-
 }
