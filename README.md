@@ -70,6 +70,12 @@ To send email, make a POST request to **/email/send** with the following JSON pa
 - **API Endpoints:**
     - **`POST** /email/send   -> Send email with/without attachemt, with/without html content
 
+## URL
+POST URL for the endpoint will be
+```bash
+http://localhost:8081/email/send
+```
+
 ## Dependencies
 - **spring-boot-starter-mail**
 - **spring-boot-starter-web**
