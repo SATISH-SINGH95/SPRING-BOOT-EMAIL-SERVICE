@@ -57,7 +57,8 @@ To send email, make a POST request to **/email/send** with the following JSON pa
     "subject": "Meeting Reminder",
     "message": "This is a reminder for our meeting scheduled tomorrow at 10 AM. <h1>This is an HTML email</h1><p>with some <b>bold</b> text.</p>""
 }
-
+```
+```
 
 - **API Endpoints:**
     - **`POST** /api/v1/email/send   -> Send email with/without attachemt, with/without html content
