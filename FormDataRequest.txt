@@ -1,0 +1,17 @@
+Key: emailRequestObject    -> text
+
+Value:
+      {
+	"to":["learncodewithsatish@gmail.com"],
+	"cc":["satishbtechengineer@gmail.com", "ridicsat@gmail.com"],
+	"bcc": [],
+	"subject": "Testing Subject1",
+	"message":"Email-1 without attachment"
+      }
+
+
+Key: file   --> File
+Value: You can select file from you computer
+
+
+

@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "f93d14b5-2cd1-4c40-8789-ddda517d2d90",
+		"name": "Email-Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "25370918"
+	},
+	"item": [
+		{
+			"name": "Send Email",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "emailRequestObject",
+							"value": "{\n\"to\":[\"abc@gmail.com\"],\n\"cc\":[\"xyz@gmail.com\", \"pqr@gmail.com\"],\n\"bcc\": [],\n\"subject\": \"Testing Subject1\",\n\"message\":\"Email-1 without attachment\"\n}",
+							"type": "text"
+						},
+						{
+							"key": "file",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": "localhost:8081/api/v1/email/send"
+			},
+			"response": []
+		}
+	]
+}
