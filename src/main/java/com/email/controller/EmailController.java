@@ -32,7 +32,7 @@ public class EmailController {
      * @param file
      * @return emailResponse
      * @Author Satish
-     * **/
+     * **/ 
     @PostMapping(ApiConstants.EP_SEND_EMAIL)
     @Operation(summary = "", description = "")
     public ResponseEntity<ApiResponse> sendEmail(
@@ -48,6 +48,8 @@ public class EmailController {
             String emailResponse = emailService.sendEmail(emailRequestObject1, file);
             return ApiResponseBuilder.getSuccessResponse(emailResponse, "Email sent successfully", HttpStatus.OK);
         } catch (BadApiRequestException ex) {
+            throw ex;
+        } catch (ConstraintViolationException ex) {
             throw ex;
         } catch (Exception ex) {
             return ApiResponseBuilder.getErrorResponse(null, ex.getMessage(), HttpStatus.BAD_REQUEST, null);
